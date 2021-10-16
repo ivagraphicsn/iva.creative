@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+body{
+	background-image:url(..\img\bg.jpg);
+	background-color:#DCDCDC;
+	color:#DCDCDC;
+	font-family: 'Rubik', sans-serif;
+	font-size:16px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    padding: 25px;
+    margin: 0 auto;
+    background: #141414;
+    box-shadow: 0 2px 15px #141414;
+}
+.logo {
+  float: left;
+  color:#f26324;
+  font-weight: 600;
+  font-size: 25px;
+}
+nav {float: right;}nav ul {margin: 0;}nav li {padding: 0 5px;display: inline-block; /*один из способов разместить элементы в строку*/}
+
+.bh{
+	color: white;
+    background: linear-gradient(45deg,#4648B4,#487FC6);	
+	padding: 2px 10px;
+	border-radius: 30px;
+	transition: all linear .25s;
+    -webkit-transition: all linear .25s;
+}
+.bh:hover{
+	background:#FFFFFF;	
+    color: #4648B4;	
+	}
+.insta{
+	color:white;
+	background: linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+	padding: 2px 10px;
+	border-radius: 30px;
+	transition: all linear .25s;
+    -webkit-transition: all linear .25s;}	
+.insta:hover{
+	background:white;	
+    color: #9A20E9;}
+.vk{
+	color:white;
+	background:#4466DA;
+	padding: 2px 10px;
+	border-radius: 30px;
+    transition: all linear .25s;
+    -webkit-transition: all linear .25s;	
+}
+.vk:hover{
+	color:#4466DA;
+	background:white;
+}
+.mail{
+	color:white;
+	background:#D63015;
+	padding: 2px 10px;
+	border-radius: 30px;
+    transition: all linear .25s;
+    -webkit-transition: all linear .25s;	
+}
+.mail:hover{
+	color:#D63015;
+	background:white;
+}
+.post{
+    border-radius:20px;
+	margin:0 auto;
+	max-width:1000px;
+	box-shadow: 0 2px 15px black;
+}
+img{
+	max-width: 1000px;
+	border-radius: 20px 20px 0 0;
+	padding: 0px 0;
+	display: block; margin: 0 auto;
+}
+b{color:#f26324; font-size:18px;}
+.post_info{
+  padding:15px;
+}
+.btn {
+	margin:auto 10px;
+	font-size:18px;
+	padding-left: 15px;padding-right: 15px;
+	height:30px;
+    border: none;
+    background: #191919;
+    box-shadow: 3px 1px 0px #39B8B0,-3px -1px 0px #FE7855;
+    border-radius: 20px;
+    color: #E7E7E5;
+    transition: all 400ms ease;
+}
+.btn:hover {
+    color: #191919;
+    background: #E7E7E5;
+	box-shadow: -3px -1px 0px #39B8B0,3px 1px 0px #FE7855;
+}
+	
+.btn:active {
+    color: #191919;
+    background: #FE7855;
+    transition: all 10ms ease;
+    box-shadow: 0px 0px 0px #39B8B0,0px 0px 0px #FE7855;
+}
